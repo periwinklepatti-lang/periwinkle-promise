@@ -1,44 +1,194 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Periwinkle Promise Foundation</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: #303044;
+      background: #faf9ff;
+      line-height: 1.7;
+    }
+
+    .hero {
+      min-height: 75vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #7777c9, #aaa7e8);
+      color: white;
+    }
+
+    .hero-content {
+      max-width: 850px;
+    }
+
+    .flower {
+      font-size: 50px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: clamp(42px, 7vw, 78px);
+      margin: 0;
+      line-height: 1.05;
+    }
+
+    .tagline {
+      font-size: clamp(22px, 3vw, 34px);
+      font-style: italic;
+      margin-top: 25px;
+    }
+
+    .hero p {
+      max-width: 650px;
+      margin: 25px auto;
+      font-size: 18px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 14px 28px;
+      background: white;
+      color: #6664ad;
+      text-decoration: none;
+      font-family: Arial, sans-serif;
+      font-weight: bold;
+      border-radius: 30px;
+    }
+
+    section {
+      max-width: 850px;
+      margin: auto;
+      padding: 70px 25px;
+      text-align: center;
+    }
+
+    h2 {
+      color: #6967b1;
+      font-size: 34px;
+      margin-bottom: 20px;
+    }
+
+    section p {
+      font-size: 18px;
+    }
+
+    .promise {
+      background: #efedff;
+      max-width: none;
+    }
+
+    .promise-inner {
+      max-width: 850px;
+      margin: auto;
+    }
+
+    footer {
+      background: #303044;
+      color: white;
+      text-align: center;
+      padding: 35px 20px;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+
+    footer a {
+      color: #d4d1ff;
+    }
+  </style>
 </head>
 
 <body>
 
-  <h1>Periwinkle Promise Foundation</h1>
+  <header class="hero">
+    <div class="hero-content">
 
-  <h2>No Vet Dies Alone.</h2>
+      <div class="flower">✿</div>
 
-  <p>
-    Periwinkle Promise Foundation exists to help create compassionate,
-    dignified end-of-life care for veterans.
-  </p>
+      <h1>Periwinkle Promise</h1>
 
-  <p>
-    We believe every veteran deserves comfort, companionship, dignity,
-    and love in their final chapter.
-  </p>
+      <div class="tagline">
+        No Vet Dies Alone.
+      </div>
 
-  <h2>Beulah's House</h2>
+      <p>
+        Creating compassionate, dignified end-of-life care
+        for the men and women who served our country.
+      </p>
 
-  <p>
-    Our dream is to build a home where veterans can receive exceptional
-    care and never face the end of life alone.
-  </p>
+      <a class="button" href="#promise">
+        Discover Our Promise
+      </a>
 
-  <h2>Help Us Build the Promise</h2>
+    </div>
+  </header>
 
-  <p>
-    Every donation, volunteer, conversation, and connection moves us
-    one step closer.
-  </p>
 
-  <p>
-    Contact: periwinklepatti@gmail.com
-  </p>
+  <section>
+    <h2>Every Veteran Deserves a Beautiful Final Chapter</h2>
+
+    <p>
+      Periwinkle Promise Foundation was created from a simple belief:
+      the people who served our country deserve comfort, companionship,
+      dignity and love at the end of their lives.
+    </p>
+  </section>
+
+
+  <section class="promise" id="promise">
+    <div class="promise-inner">
+
+      <h2>Beulah's House</h2>
+
+      <p>
+        We have a dream of creating a home where veterans can receive
+        exceptional end-of-life care surrounded by compassion,
+        community and love.
+      </p>
+
+      <p>
+        A place where nobody faces their final journey alone.
+      </p>
+
+    </div>
+  </section>
+
+
+  <section>
+    <h2>Help Us Build the Promise</h2>
+
+    <p>
+      Every dollar, volunteer, conversation and connection brings
+      Beulah's House one step closer to becoming a reality.
+    </p>
+
+    <a class="button" href="mailto:periwinklepatti@gmail.com">
+      Get Involved
+    </a>
+  </section>
+
+
+  <footer>
+    <strong>Periwinkle Promise Foundation</strong><br>
+    No Vet Dies Alone.<br><br>
+
+    <a href="mailto:periwinklepatti@gmail.com">
+      periwinklepatti@gmail.com
+    </a>
+  </footer>
 
 </body>
 </html>
